@@ -5,11 +5,11 @@ import '../models/category_model.dart';
 final dummyCategories = [
   Category(
     id: 'c1',
-    title: 'Italian',
+    title: 'Món Ý',
   ),
   Category(
     id: 'c2',
-    title: 'Quick & Easy',
+    title: 'Nhanh và dễ làm',
   ),
   Category(
     id: 'c3',
@@ -17,31 +17,31 @@ final dummyCategories = [
   ),
   Category(
     id: 'c4',
-    title: 'German',
+    title: 'Món Đức',
   ),
   Category(
     id: 'c5',
-    title: 'Light & Lovely',
+    title: 'Nhẹ nhành, tình cảm',
   ),
   Category(
     id: 'c6',
-    title: 'Exotic',
+    title: 'Kỳ lạ',
   ),
   Category(
     id: 'c7',
-    title: 'Breakfast',
+    title: 'Món cho bữa sáng',
   ),
   Category(
     id: 'c8',
-    title: 'Asian',
+    title: 'Món Á',
   ),
   Category(
     id: 'c9',
-    title: 'French',
+    title: 'Món Pháp',
   ),
   Category(
     id: 'c10',
-    title: 'Summer',
+    title: 'Mùa hè',
   ),
 ];
 

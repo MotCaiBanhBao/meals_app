@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import '../screens/meal_detail_screen.dart';
 import '../screens/categories_meal_screen.dart';
 import '../screens/categories_screen.dart';
 
@@ -23,17 +24,17 @@ class MyApp extends StatelessWidget {
             fontFamily: "Raleway",
           ),
         ),
-        primaryColor: const Color(0xff774a63),
         accentColor: const Color(0xffd6a5c0),
+        primaryColor: const Color(0xff774a63),
         canvasColor: const Color(0xfffcf1f2),
         backgroundColor: const Color(0xfffcf1f2),
         fontFamily: "Ralewaty",
         textTheme: ThemeData.light().textTheme.copyWith(
               bodyText1: const TextStyle(
-                color: Color(0xfffcf1f2),
+                color: Color(0xff774a63),
               ),
               bodyText2: const TextStyle(
-                color: Color(0xfffcf1f2),
+                color: Color(0xff774a63),
               ),
               caption: const TextStyle(
                 fontSize: 20,
@@ -44,8 +45,9 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: CategoriesScreen.routerName,
       routes: {
-        CategoriesScreen.routerName: (ctx) => CategoriesScreen(),
-        CategoryMealsScreen.routerName: (ctx) => CategoryMealsScreen(),
+        CategoriesScreen.routerName: (ctx) => const CategoriesScreen(),
+        MealDetailScreen.routerName: (ctx) => const MealDetailScreen(),
+        CategoryMealsScreen.routerName: (ctx) => const CategoryMealsScreen(),
       },
     );
   }
