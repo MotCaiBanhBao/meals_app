@@ -8,7 +8,8 @@ class MealItem extends StatelessWidget {
 
   void onSelected(BuildContext context) {
     Navigator.pushNamed(context, MealDetailScreen.routerName,
-        arguments: item.id);
+            arguments: item.id)
+        .then((value) {});
   }
 
   @override
